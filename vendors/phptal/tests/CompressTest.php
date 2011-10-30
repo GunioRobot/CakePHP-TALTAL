@@ -12,7 +12,7 @@
  * @version  SVN: $Id: $
  * @link     http://phptal.org/
  */
- 
+
 class CompressTest extends PHPTAL_TestCase
 {
     private function assertStrips($expect,$source, $html5 = false)

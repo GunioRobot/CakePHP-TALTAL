@@ -23,14 +23,14 @@ class UTF8Test extends PHPTAL_TestCase
         $str = 'ąbć';
         $this->assertEquals('b',$str[2],"mbstring.func_overload is not supported");
     }
-    
+
     function testË()
     {
         $src = '<div class="box_title">Kopiëren van een rapport</div>';
         $res = $this->newPHPTAL()->setSource($src)->execute();
         $this->assertEquals($src,$res);
     }
-    
+
     function testFile()
     {
         $this->assertContains(

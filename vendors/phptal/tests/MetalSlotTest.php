@@ -90,7 +90,7 @@ class MetalSlotTest extends PHPTAL_TestCase
     function testRecursiveUnFill()
     {
         $this->markTestSkipped("Known bug, won't get fixed for 1.2.2");
-        
+
         $tpl = $this->newPHPTAL()->setSource('<div>
           <div metal:define-macro="test1">
             <span metal:define-slot="val1"/>

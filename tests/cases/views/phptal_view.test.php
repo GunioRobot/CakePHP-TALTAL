@@ -7,7 +7,7 @@
  * PHP 5.2+
  *
  * Copyright 2011, nojimage (http://php-tips.com/)
- * 
+ *
  * @filesource
  * @author     nojimage <nojimage at gmail.com>
  * @copyright  2011 nojimage (http://php-tips.com/)
@@ -130,7 +130,7 @@ class PhptalViewTest extends CakeTestCase {
      * @return void
      */
     function tearDown() {
-        
+
     }
 
     /**

@@ -7,7 +7,7 @@
  * PHP 5.2+
  *
  * Copyright 2011, nojimage (http://php-tips.com/)
- * 
+ *
  * @filesource
  * @version    0.3.1
  * @author     nojimage <nojimage at gmail.com>
@@ -29,7 +29,7 @@ include_once dirname(dirname(__FILE__)) . DS . 'libs' . DS . 'PHPTAL_Namespace_C
 
 /**
  * PHPTALView
- * 
+ *
  * @property PHPTAL $Phptal
  */
 class PhptalView extends ThemeView {
